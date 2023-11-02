@@ -8,12 +8,12 @@ Pod::Spec.new do |spec|
   spec.homepage              = "https://github.com/delighted/delighted-ios"
   spec.author                = { "Delighted": "hello@delighted.com" }
   spec.license               = { file: "LICENSE" }
-  spec.ios.deployment_target = "12.1"
+  spec.ios.deployment_target = "13.0"
   spec.source                = { git: "https://github.com/delighted/delighted-ios.git", tag: "#{spec.version}" }
   spec.module_name           = "Delighted"
   spec.swift_version         = "5.0"
   spec.ios.source_files      = "Sources/Delighted/Classes/*.swift"
   spec.resource_bundles      = { "Delighted_Delighted" => ["Sources/Delighted/Assets/*.xcassets"] }
 
-  spec.dependency "Starscream", "~> 4.0" # Support for Swift 5
+  spec.dependency "Starscream", "4.0.6" # Support for Swift 5
 end
