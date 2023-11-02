@@ -11,7 +11,7 @@
     "file": "LICENSE"
   },
   "platforms": {
-    "ios": "12.1"
+    "ios": "13.0"
   },
   "source": {
     "git": "https://github.com/delighted/delighted-ios.git",
@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "Starscream": [
-      "~> 4.0"
+      "4.0.6"
     ]
   },
   "swift_version": "5.0"
